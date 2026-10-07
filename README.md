@@ -1,10 +1,14 @@
 # Retail Data Lakehouse & Customer Analytics Pipeline
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit%20Cloud-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://ecommerce-lakehouse-pipeline-ras3bpfvy5g6tfbtxbcukc.streamlit.app/)
+
 [![Architecture: Medallion](https://img.shields.io/badge/Architecture-Medallion%20(Bronze%2FSilver%2FGold)-blue.svg)](#architecture)
 [![Tech: PySpark](https://img.shields.io/badge/Engine-Apache%20Spark%20%2F%20PySpark-orange.svg)](#tech-stack)
 [![Cloud: AWS / GCP](https://img.shields.io/badge/Cloud-AWS%20S3%20%7C%20GCP%20GCS-green.svg)](#cloud-architecture)
 [![Format: Parquet](https://img.shields.io/badge/Storage-Snappy%20Parquet-purple.svg)](#storage-optimization)
 [![BI: Power BI & Tableau](https://img.shields.io/badge/BI-Power%20BI%20%26%20Tableau-yellow.svg)](#bi--visualizations)
+
+> 🚀 **Live Interactive Web App:** [https://ecommerce-lakehouse-pipeline-ras3bpfvy5g6tfbtxbcukc.streamlit.app/](https://ecommerce-lakehouse-pipeline-ras3bpfvy5g6tfbtxbcukc.streamlit.app/)
 
 An end-to-end, production-grade **Data Lakehouse & Customer Intelligence Platform** designed following the **Medallion Architecture (Bronze $\to$ Silver $\to$ Gold)**. Engineered to process raw e-commerce transaction logs, automate data cleansing and deduplication, enforce statistical quality gates, model dimensional star schemas, compute an ML-ready RFM feature store, and serve analytics dashboards.
 

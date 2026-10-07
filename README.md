@@ -130,7 +130,7 @@ Ensure Python 3.10+ is installed.
 
 ### 2. Setup Environment
 ```bash
-git clone https://github.com/your-username/ecommerce-lakehouse-pipeline.git
+git clone https://github.com/simpal1501/ecommerce-lakehouse-pipeline.git
 cd ecommerce-lakehouse-pipeline
 pip install -r requirements.txt
 ```
@@ -141,6 +141,18 @@ Execute the master runner to generate data, ingest to Bronze, clean to Silver, m
 ```bash
 python run_pipeline.py
 ```
+
+---
+
+## BI Dashboards & Visualizations
+
+The pipeline automatically serves cleansed Gold tables to Power BI / Tableau dashboards.
+
+### 1. Executive Performance Dashboard
+![Executive KPI Dashboard](bi/dashboard_executive_kpis.png)
+
+### 2. Customer RFM Segmentation & Churn Matrix
+![Customer RFM Segmentation](bi/dashboard_rfm_segments.png)
 
 ---
 

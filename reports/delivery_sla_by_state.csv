@@ -1,0 +1,6 @@
+customer_state,total_deliveries,avg_delivery_days,delayed_orders,delay_pct,avg_freight
+MG,423,16.7,258.0,60.99,26.37
+BA,424,16.7,254.0,59.91,26.53
+RS,391,16.7,232.0,59.34,26.2
+CE,427,17.0,246.0,57.61,26.9
+RJ,364,16.5,209.0,57.42,26.14

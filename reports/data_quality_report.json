@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-10-07T14:10:09.666602",
+  "status": "PASSED",
+  "tests": [
+    {
+      "name": "Primary Key Null Rate (order_id)",
+      "null_count": 0,
+      "null_rate": "0.0000%",
+      "passed": true
+    },
+    {
+      "name": "Order ID Uniqueness",
+      "total_records": 5000,
+      "unique_records": 5000,
+      "passed": true
+    },
+    {
+      "name": "Payment Value Statistical Outlier Profile (IQR)",
+      "q1_25th_percentile": 187.74,
+      "q3_75th_percentile": 444.55,
+      "iqr": 256.81,
+      "statistical_upper_bound": 829.76,
+      "outlier_count": 230,
+      "outlier_percentage": "5.35%",
+      "passed": true
+    },
+    {
+      "name": "Delivery SLA Statistical Distribution",
+      "mean_delivery_days": 16.58,
+      "std_dev_delivery_days": 5.15,
+      "p95_delivery_days": 25.0,
+      "delayed_orders_count": 1628,
+      "delayed_orders_rate": "32.56%",
+      "passed": true
+    }
+  ]
+}
